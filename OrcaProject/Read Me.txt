@@ -1,0 +1,19 @@
+This code represents a somewhat simplified reverse engineering of the Orca card platform. Its purpose is just to show what the code behind such a process might look like.
+
+The program consist of multiple classes including some display classes. To use the program you will first want to initialize a card. The card is one of three types:
+*pass
+*purse
+*discount.
+
+if you choose pass you will be asked to choose a region. The program, as is, only supports ALL and King County. Other passes will recieve a message that the pass is not supported.
+
+If you choose Purse or Discount, you will be asked to provide an initial value. It must be $5 dollars or greater.
+
+When completed you will be shown your card number. The card persists and will be stored as a file with the form of <<cardnumber>>.xml. I didn't path the file so it will be stored in The project path /bin/debug. The trip log is also stored there.
+
+Once you have a card you can choose a trip. Currently the choices are simply bus and train. For the bus you have to enter a coach number which can be any number and a bus--something like "MetroKC".
+
+For a train you will need to enter a coach number. This must look like "Coach#1." The stations are numbered 1 to 8 on the south train,  meaning 1=Lakeland, 2=Tacoma, 3=Puyallup, etc. The fare is assessed by taking a base fare and adding 50 cents for each station travelled. (I know this is not how it is actually done.). Consequently every train ride should consist of a pair that has different coach numbers. For example the first station is Coach#3 and the second is Coach#8. The base fare is 3.00. Add .50 * 5 for 2.50 and a total of 5.50. I works the same in reverse. (I used absolute values.)
+
+Every trip is logged to a comma delimitted file.
+

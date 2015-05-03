@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Card xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tripList>
+    <Trip>
+      <vehicleLoc>#6345</vehicleLoc>
+      <TripDate>4/1/2015</TripDate>
+      <TripTime>9:15 AM</TripTime>
+    </Trip>
+    <Trip>
+      <Mode>MKC Bus</Mode>
+      <vehicleLoc>Coach 3</vehicleLoc>
+      <TripDate>4/1/2015</TripDate>
+      <TripTime>9:00 AM</TripTime>
+    </Trip>
+    <Trip>
+      <Mode>ST Bus</Mode>
+      <vehicleLoc>Coach 8</vehicleLoc>
+      <TripDate>4/1/2015</TripDate>
+      <TripTime>8:00 AM</TripTime>
+    </Trip>
+    <Trip xsi:nil="true" />
+    <Trip xsi:nil="true" />
+    <Trip xsi:nil="true" />
+    <Trip xsi:nil="true" />
+    <Trip xsi:nil="true" />
+  </tripList>
+  <SerialNumber>123654</SerialNumber>
+  <Balance>24.5</Balance>
+</Card>

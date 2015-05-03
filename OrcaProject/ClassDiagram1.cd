@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OrcaProject.BusCardReader">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAAAEQAAAAEAAQAEgAgAAAEAACAAgAAAIAAACw=</HashCode>
+      <FileName>BusCardReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OrcaProject.Card">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAQAAEgAAAgAAAkAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrcaProject.CardReader">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAABAAAEAAAAIAAABAAoAAAAAA=</HashCode>
+      <FileName>CardReader.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CardSerialization" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OrcaProject.CardSerialization">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>CardSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrcaProject.Program">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrcaProject.Trip">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAgAAAIAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Trip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrcaProject.TrainReader">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEEAAAAAACAAAAIACAAgACAAAACKQ=</HashCode>
+      <FileName>TrainReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OrcaProject.InitializeCard">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACUAAACAAAAAAAAAAAAAQAAAAQCAAAAAAgQAA=</HashCode>
+      <FileName>InitializeCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OrcaProject.IFares">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAQ=</HashCode>
+      <FileName>IFares.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="OrcaProject.CardRegions">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAABAAACAAAA=</HashCode>
+      <FileName>CardRegions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OrcaProject.Cardtypes">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>CardTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,6 @@
+c:\users\steve\documents\visual studio 2013\Projects\OrcaProject\OrcaProject\bin\Debug\OrcaProject.exe.config
+c:\users\steve\documents\visual studio 2013\Projects\OrcaProject\OrcaProject\bin\Debug\OrcaProject.exe
+c:\users\steve\documents\visual studio 2013\Projects\OrcaProject\OrcaProject\bin\Debug\OrcaProject.pdb
+c:\users\steve\documents\visual studio 2013\Projects\OrcaProject\OrcaProject\obj\Debug\OrcaProject.csprojResolveAssemblyReference.cache
+c:\users\steve\documents\visual studio 2013\Projects\OrcaProject\OrcaProject\obj\Debug\OrcaProject.exe
+c:\users\steve\documents\visual studio 2013\Projects\OrcaProject\OrcaProject\obj\Debug\OrcaProject.pdb
